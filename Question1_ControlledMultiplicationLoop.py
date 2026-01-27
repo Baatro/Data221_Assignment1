@@ -1,4 +1,7 @@
 
+from itertools import product
+
+
 def find_factorial_exceeding_threshold(threshold):
     product = 1
     current_number = 1
@@ -13,11 +16,13 @@ def find_factorial_exceeding_threshold(threshold):
     # Return both the final number and the product that exceeded the threshold
     return current_number, product
 
+def main():
+    threshold = 100
+    # Call the function and unpack the returned values
+    current_number, product = find_factorial_exceeding_threshold(threshold)
 
-threshold = 100
-# Call the function and unpack the returned values
-current_number, product = find_factorial_exceeding_threshold(threshold)
+    # Display results
+    print(f"Final product: {product}")
+    print(f"Integer that exceeded threshold: {current_number}")
 
-# Display results
-print(f"Final product: {product}")
-print(f"Integer that exceeded threshold: {current_number}")
+main()
