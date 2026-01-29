@@ -1,7 +1,3 @@
-
-from itertools import product
-
-
 def find_factorial_exceeding_threshold(threshold):
     product = 1
     current_number = 1
