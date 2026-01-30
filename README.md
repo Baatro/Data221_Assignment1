@@ -33,4 +33,8 @@ Defines a function that converts a number of seconds since midnight into hours, 
 
 Question8_PandasDataFrame.py
 
+<<<<<<< HEAD
 Uses the pandas library to create a DataFrame from provided data, computes a new column derived from existing columns, and prints the final DataFrame.
+=======
+Uses the pandas library to create a DataFrame from provided data, computes a new column derived from existing columns, and prints the final DataFrame.
+>>>>>>> fe62b0003c78c103d69eb9c2b1224cd6c405ff9a
